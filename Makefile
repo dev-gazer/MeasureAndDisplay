@@ -1,0 +1,2 @@
+measureAndDisplay: src/measureAndDisplay.cpp src/DHTSensor/*.cpp src/I2CLCD1602Display/*.cpp
+	g++ src/measureAndDisplay.cpp src/DHTSensor/*.cpp src/I2CLCD1602Display/*.cpp -o measureAndDisplay -lwiringPi -lwiringPiDev -I.
